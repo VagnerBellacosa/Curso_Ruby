@@ -1,0 +1,38 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 350px;
+}
+
+.range-container{
+  text-align: center;
+  background: black;
+  padding: 15px;
+}
+
+.images-container{
+  text-align: center;
+  font-family: Arial;
+  --width: 30px;
+  pointer-events: none;
+}
+
+.img-container{
+}
+
+.item{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: .5;
+}
+
+.img{
+  width: calc(var(--width) / 1.9);
+}
+
+.vector{
+  font-size: var(--width);
+}

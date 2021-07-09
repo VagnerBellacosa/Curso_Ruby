@@ -1,0 +1,12 @@
+
+
+.meu-circulo{
+  r: 30;
+  cx: 50;
+  cy: 40;
+  fill: lightgreen;
+  stroke: orange;
+  stroke-width: 5;
+}
+
+

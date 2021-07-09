@@ -1,0 +1,19 @@
+
+
+a:link {
+  color:#0000FF;
+}
+
+
+a:visited {
+  color:#FF0000;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+body:focus {
+  outline: none;
+}
